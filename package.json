@@ -1,0 +1,27 @@
+{
+  "name": "FTPnTimeBot",
+  "version": "1.0.0",
+  "description": "This is a sample of an Bot built on Node JS with multi-dialog that give the time of any Country requested and return a file requested from a FTP",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "azure-publish": "node publish.js"
+  },
+  "author": "Jose Sabino",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "restify": "^5.0.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "util": "^0.10.3",
+    "ftp": "^0.3.10",
+    "countrynames": "^0.1.1",
+    "tz-lookup": "^6.1.4",
+    "moment-timezone": "^0.5.14"
+  }
+}
